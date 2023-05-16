@@ -1,4 +1,4 @@
-# OSP-OnlineWeb 🤓
+# OSP-OnlineWeb 
 
 🏫 This is a school project for our Open Source class. 💻 
 
