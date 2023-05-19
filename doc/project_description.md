@@ -2,8 +2,8 @@
 
 Document 🗒️: Project Goal, Functions, and Software Architecture
 
-
 Update 19/05/2023 16:50 - Reducing project scope due to time constraint
+
 
 1. Project Goal 🏹:
 
