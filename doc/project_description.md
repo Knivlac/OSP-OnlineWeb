@@ -2,6 +2,7 @@
 
 Document 🗒️: Project Goal, Functions, and Software Architecture
 
+
 1. Project Goal 🏹:
 
 The goal of our project is to develop a simple online shop website that provides users with a convenient platform to browse and purchase products. For this project, the website will feature books. The website will have a user-friendly interface with a landing page displaying a catalogue of books. Additionally, the website will incorporate a login system for both users and administrators. 
@@ -13,6 +14,7 @@ The primary objectives of the project are as follows:
 - Implement a cart function for users, allowing them to add products for purchase, and keeping a record of purchase history.
 
 Note: This is not a real E-commerce website. No real transactions will be involved.
+
 
 2. Functionality Scope 🔎:
 
@@ -30,6 +32,7 @@ This website will have seperate set of features and functions for regular users 
 - Website Management: Administrators will have the authority to manage various aspects of the website, including the ability to add, update, or remove products from the catalogue and other actions.
 - User Management: Administrators will be responsible for managing user accounts, including the ability to view user information and perform necessary actions such as resetting passwords or deactivating accounts.
 - Order Management: Administrators will have access to order information, allowing them to track and manage user purchases.
+
 
 3. Software Architecture 🏛️:
 
