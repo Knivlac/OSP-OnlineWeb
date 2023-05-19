@@ -3,7 +3,7 @@
 Document 🗒️: Project Goal, Functions, and Software Architecture
 
 
-Update 19/05/2023 : Reducing the scope of the project due to time constraint :despair:
+Update 19/05/2023 16:50 - Reducing project scope due to time constraint
 
 1. Project Goal 🏹:
 
@@ -13,7 +13,7 @@ The primary objectives of the project are as follows:
 - Provide users with the ability to browse through the inventory of products.
 - Implement a secure login functionality for users and administrators.
 - Enable administrators to manage the website, including maintaining web server services, managing prices, and adding/removing items.
-- Implement a cart function for users, allowing them to add products for purchase, and keeping a record of purchase history. (Optional)
+- Implement a cart function for users, allowing them to add products for purchase, and keeping a record of purchase history. (Uncertain)
 
 Note: This is not a real E-commerce website. No real transactions will be involved.
 
@@ -26,14 +26,14 @@ This website will have seperate set of features and functions for regular users 
 - Registration: Users will have the option to register on the website by providing necessary details. This information will be stored securely in the database.
 - Login: Registered users can log in to the website using their login info. This will grant them access to additional features such as adding items to the cart and viewing purchase history.
 - Product Browsing: Users will be able to browse through the catalogue of products available on the website. The products will be displayed with relevant information such as name, type, and price.
-- Cart Function (Optional): Users will have the ability to add products to their cart for purchase. They can add multiple items and manage the quantities before proceeding to the checkout process.
-- Purchase History (Optional): Users will have access to their purchase history, which will display details of previous orders and transactions.
+- Cart Function (Uncertain): Users will have the ability to add products to their cart for purchase. They can add multiple items and manage the quantities before proceeding to the checkout process.
+- Purchase History (Uncertain): Users will have access to their purchase history, which will display details of previous orders and transactions.
 
 2.2 Administrator Functions 🖥️:
 - Login: Administrators will have a separate login interface to access the admin panel. This login functionality will provide additional security for administrative actions.
 - Website Management: Administrators will have the authority to manage various aspects of the website, including the ability to add, update, or remove products from the catalogue and other actions.
 - User Management: Administrators will be responsible for managing user accounts, including the ability to view user information and perform necessary actions such as resetting passwords or deactivating accounts.
-- Order Management (Optional): Administrators will have access to order information, allowing them to track and manage user purchases.
+- Order Management (Uncertain): Administrators will have access to order information, allowing them to track and manage user purchases.
 
 
 3. Software Architecture 🏛️:
@@ -54,5 +54,5 @@ The database component will store and organize the data required for the website
 
 - Users Table: This table will store user information such as user ID, name, and password (stored securely using login hash).
 - Products Table: This table will contain product details, including book ID, book name, genre, and so forth.
-- Cart Table: This table will store the user's selected products in the cart.
-- Purchases Table: This table will record details about user purchases, including the user ID, product ID, purchase date, and other relevant details.
+- Cart Table (uncertain): This table will store the user's selected products in the cart.
+- Purchases Table (uncertain): This table will record details about user purchases, including the user ID, product ID, purchase date, and other relevant details.
