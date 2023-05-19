@@ -1,3 +1,3 @@
 # Documentation 🗒️
 
-This folder is for project documentation.
+This folder is for project documentation. ✍️🤓📑
