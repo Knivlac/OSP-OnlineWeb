@@ -5,7 +5,7 @@ Document 🗒️: Project Goal, Functions, and Software Architecture
 
 1. Project Goal 🏹:
 
-The goal of our project is to develop a simple online shop website that provides users with a convenient platform to browse and purchase products. For this project, the website will feature books. The website will have a user-friendly interface with a landing page displaying a catalogue of books. Additionally, the website will incorporate a login system for both users and administrators. 
+The goal of our project is to develop a simple online shop website that provides users with a convenient platform to browse and purchase products. For this project, the products featured on the website will only be books. The website will have a user-friendly interface with a landing page displaying a catalogue of books. Additionally, the website will incorporate a login system for both users and administrators. 
 
 The primary objectives of the project are as follows:
 - Provide users with the ability to browse through the inventory of products.
@@ -48,7 +48,7 @@ The backend component will handle the server-side processing of the website. It 
 
 3.3 Database:
 
-The database component will store and organize the data required for the website's functionality. It will be implemented using a relational database management system SQLite (or MySQL not sure yet). The database will consist of several tables, including the following:
+The database component will store and organize the data required for the website's functionality. It will be implemented using a relational database management system SQLite (or MySQL, not yet finalized). The database will consist of several tables, including the following:
 
 - Users Table: This table will store user information such as user ID, name, and password (stored securely using login hash).
 - Products Table: This table will contain product details, including book ID, book name, genre, and so forth.
