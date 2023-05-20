@@ -19,3 +19,8 @@ PHP
 Database
 
 - OpenSourceDatabase.db
+
+Graphic = image folder
+
+- Book covers
+- Sprites
