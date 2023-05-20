@@ -1,1 +1,1 @@
-# Folder for pictures? 😕
+# Folder for images 🖼️
