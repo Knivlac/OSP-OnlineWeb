@@ -116,7 +116,6 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background-image: url(graphic/Sprite-BG.png);
-    height: 300rem;
 }
 
 .home{
@@ -127,6 +126,7 @@ body{
     margin-top: 50px;
     margin-left: 10%;  
     margin-right: 10%;
+    margin-bottom: 100px;
     width: 80%;
     height: 80%;
 }
@@ -168,4 +168,61 @@ body{
     font-size: 20px;
 }
 
+.aboutus{
+    background: var(--translucent-main);
+    border-radius: 1.8rem;
+    padding: 2rem;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 10%;  
+    margin-right: 10%;
+    margin-bottom: 100px;
+    width: 80%;
+    height: 80%;
+}
 
+.aboutus h1{
+    margin-left: 1.6rem;
+    font-size: 40px;
+}
+
+.aboutus .amogus{
+    background: #fff;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    color: #444;
+    height: 500px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.FAQ{
+    background: var(--translucent-main);
+    border-radius: 1.8rem;
+    padding: 2rem;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 10%;  
+    margin-right: 10%;
+    margin-bottom: 100px;
+    width: 80%;
+    height: 80%;
+}
+
+.FAQ h1{
+    margin-left: 1.6rem;
+    font-size: 40px;
+}
+
+.FAQ .que{
+    background: #fff;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    color: #444;
+    width: 100%;
+    font-size: 30px;
+}
+
+.FAQ .que p{
+    font-size: 20px;
+}
