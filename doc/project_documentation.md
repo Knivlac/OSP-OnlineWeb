@@ -1,4 +1,4 @@
-# Documentation 🤓
+# Documentation ✍️🤓
 
 19/05/2023
 
@@ -19,3 +19,7 @@
     - Changed `OpenSourceProject.db` to `OpenSourceDatabase.db`.
 - 23:00 Spreadsheet containing data
     - Compile book data in an Excel file for easier management and reference.
+
+21/05/2023
+
+- 00:00 Login.php out? 🌝
