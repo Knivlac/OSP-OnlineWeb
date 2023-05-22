@@ -41,3 +41,7 @@
 
 - 11:30 CSS
     - Completed CSS Styling for `signUp.html`, `adminLogin.html` (410856057 SHAN YU)
+
+22/05/2023
+- 17:30
+    - Begin creation of admin backend interface

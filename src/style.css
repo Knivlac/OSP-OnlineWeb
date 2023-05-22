@@ -373,3 +373,59 @@ form.signUp-form button {
   padding: 10px;
   font-weight: bold;
 }
+
+div.login-form {
+  position: relative;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 640px;
+  margin: 0px;
+  padding: 20vh 95px;
+  background-color: white;
+  font-size: 22px;
+  border-left: 10px double black;
+  border-right: 10px double black;
+}
+
+div img.logo {
+  position: fixed;
+  top: 0;
+  width: 430px;
+}
+
+div.login-form h2 {
+  font-size: 39px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0px 0px 10px 0px;
+}
+
+div.login-form label {
+  text-align: left;
+}
+
+div.login-form input {
+  box-sizing: border-box;
+  width: 430px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px 0px 20px 0px;
+  border-radius: 15px;
+  border: 2px solid gray;
+  text-align: left;
+}
+
+div.login-form button {
+  width: 430px;
+  border-radius: 15px;
+  border: 2px solid gray;
+  padding: 10px;
+  font-weight: bold;
+}
+
+div.login-form hr {
+  display: block;
+  margin: 60px auto;
+  border-style: inset;
+  border-width: 1px;
+}
