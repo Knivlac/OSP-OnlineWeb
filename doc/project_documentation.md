@@ -10,21 +10,21 @@
 
 
 20/05/2023
-- 13:00 Logo and background graphic design (VILJO)
+- 13:00 Logo and background graphic design (410855448 VILJO)
     - Design sprites for bookstore logo and main page background.
 
-- 17:00 Main page layout and design (Initiated by ALFREDO, continued by VILJO)
+- 17:00 Main page layout and design (Initiated by ALFREDO, continued by 410855448 VILJO)
     - Implement a rough layout for the main page (main.html).
     - Apply CSS, JavaScript, and include sprites and book cover images.
 
 - 21:00 Presentation (410856057 SHAN YU & 410855299 CALVIN)
     - Completed outline and preparation for presentation with track record left empty.
 
-- 23:00 Database update (VILJO)
+- 23:00 Database update (410855448 VILJO)
     - Populate the book table with 4 book entities to the book table and add an admin entity to the user table.
     - Rename `OpenSourceProject.db` to `OpenSourceDatabase.db`.
 
-- 23:00 Data spreadsheet (VILJO)
+- 23:00 Data spreadsheet (410855448 VILJO)
     - Compile book data in an Excel file for easier management and reference.
 
 21/05/2023
@@ -33,7 +33,7 @@
     - Apply rough layout to `login.html`. 
     - Apply rough layout to `signUp.html`, `adminLogin.html` in accordance to `login.html`. 
 
-- 14:40 Main page update (VILJO)
+- 14:40 Main page update (410855448 VILJO)
     - Update `main.html` to display product details.
 
 22/05/2023
