@@ -1,16 +1,16 @@
 # Project Documentation ✍️🤓
 
 19/05/2023 
-- 12:00 Project initiation and setup (410855299 CALVIN & 410855448 VILJO)
+- 12:00 Overall Project (410855299 CALVIN & 410855448 VILJO)
     - Set up GitHub repository. 
 
-- 22:00 Database setup (410855448 VILJO)
+- 22:00 Database (410855448 VILJO)
     - Create a database file to store book and user information.
     - Design the book table and user table structure.
 
 
 20/05/2023
-- 13:00 Graphic design (410855448 VILJO)
+- 13:00 Graphic (410855448 VILJO)
     - Design "Sprites" for Bookstore Logo and Main Page Background.
 
 - 17:00 Main page(Initiated by ALFREDO, continued by 410855448 VILJO)
