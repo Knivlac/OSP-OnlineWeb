@@ -10,47 +10,46 @@
 
 
 20/05/2023
-- 13:00 Logo and background graphic design (410855448 VILJO)
-    - Design sprites for bookstore logo and main page background.
+- 13:00 Graphic design (410855448 VILJO)
+    - Design "Sprites" for Bookstore Logo and Main Page Background.
 
-- 17:00 Main page layout and design (Initiated by ALFREDO, continued by 410855448 VILJO)
+- 17:00 Main page(Initiated by ALFREDO, continued by 410855448 VILJO)
     - Implement a rough layout for the main page (main.html).
     - Apply CSS, JavaScript, and include sprites and book cover images.
 
 - 21:00 Presentation (410856057 SHAN YU & 410855299 CALVIN)
     - Completed outline and preparation for presentation with track record left empty.
 
-- 23:00 Database update (410855448 VILJO)
+- 23:00 Database (410855448 VILJO)
     - Populate the book table with 4 book entities to the book table and add an admin entity to the user table.
     - Rename `OpenSourceProject.db` to `OpenSourceDatabase.db`.
 
-- 23:00 Data spreadsheet (410855448 VILJO)
+- 23:00 Data Spreadsheet (410855448 VILJO)
     - Compile book data in an Excel file for easier management and reference.
 
 21/05/2023
 
-- 11:00 Login and sign up pages layout (410856057 SHAN YU)
+- 11:00 Login & Sign Up Pages (410856057 SHAN YU)
     - Apply rough layout to `login.html`. 
     - Apply rough layout to `signUp.html`, `adminLogin.html` in accordance to `login.html`. 
 
-- 14:40 Main page update (410855448 VILJO)
+- 14:40 Main Page (410855448 VILJO)
     - Update `main.html` to display product details.
 
 22/05/2023
--  00:00 Login page CSS (410856057 SHAN YU)
-    - Completed CSS styling for `login.html`
+-  00:00 Login Page (410856057 SHAN YU)
+    - Completed CSS for `login.html`
 
-- 11:30 Sign up and login pages CSS (410856057 SHAN YU)
-    - Completed CSS Styling for `signUp.html`, `adminLogin.html` 
+- 11:30 Sign Up & Admin Login (410856057 SHAN YU)
+    - Completed CSS for `signUp.html`, `adminLogin.html` 
 
 22/05/2023 
-- 17:30 Admin interface setup (410856016 VINCENT)
+- 17:30 Admin Interface (410856016 VINCENT)
     - Initiate admin backend interface design
 
-- 19:10 Database update (VILJO)
-    - Now data base has 3 tables: book, user, admin. Admin and usser tables are still empty.
+- 19:10 Database(VILJO)
+    - Update: Now data base has 3 tables: book, user, admin. Admin and usser tables are still empty.
 
-- 19:30 Admin Interface display done (410856016 VINCENT)
-    - Only need to fix minor CSS errors
-    - Hasn't started on actual database communication but included a sample
-    - Still need to look up SQLite methods
+- 19:30 Admin Interface (410856016 VINCENT)
+    - Completed CSS for Admin Interface
+    - Database communication sample added
