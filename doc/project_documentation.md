@@ -44,4 +44,4 @@ doesn't include documentation and presentation
 
 22/05/2023
 - 17:30
-    - Begin creation of admin backend interface
+    - Begin creation of admin backend interface (410856016 VINCENT)
