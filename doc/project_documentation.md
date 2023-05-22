@@ -46,3 +46,8 @@
 22/05/2023 
 - 17:30 Admin interface setup (410856016 VINCENT)
     - Initiate admin backend interface design
+
+- 19:30 Admin Interface display done (410856016 VINCENT)
+    - Only need to fix minor CSS errors
+    - Hasn't started on actual database communication but included a sample
+    - Still need to look up SQLite methods
