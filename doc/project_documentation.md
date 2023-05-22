@@ -47,6 +47,9 @@
 - 17:30 Admin interface setup (410856016 VINCENT)
     - Initiate admin backend interface design
 
+- 19:10 Database update (VILJO)
+    - Now data base has 3 tables: book, user, admin. Admin and usser tables are still empty.
+
 - 19:30 Admin Interface display done (410856016 VINCENT)
     - Only need to fix minor CSS errors
     - Hasn't started on actual database communication but included a sample
