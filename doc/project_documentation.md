@@ -26,11 +26,11 @@
 
 21/05/2023
 - 00:00 Login.php setup
-    - `login.php` initiation.
+    - `login.html` initiation.
 
 - 11:00 
-    - changed `login.php` to `login.html` (410856057 SHAN YU)
-    - added form to `login.html`, `signUp.html`, `adminLogin.html` (410856057 SHAN YU)
+    - Apply rough layout to `login.html`. (410856057 SHAN YU)
+    - Apply rough layout to `signUp.html`, `adminLogin.html` in accordance to `login.html`. (410856057 SHAN YU)
 
 - 14:40 Display product details
     - Update `main.html` to display product details.
