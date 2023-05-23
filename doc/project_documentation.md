@@ -53,3 +53,7 @@
 - 19:30 Admin Interface (410856016 VINCENT)
     - Completed CSS for Admin Interface
     - Database communication sample added
+
+23/05/2023
+- 10:00 Backend functionality (410856016 VINCENT)
+    - Initiate admin backend functionality using mySQL method
