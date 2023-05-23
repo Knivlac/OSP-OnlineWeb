@@ -15,11 +15,11 @@
 	<form class="login-form" method="POST" action="addItem.php" id="itemControl">
     <h2>Input Item Data</h2>
 		<label>ISBN</label><input type="text" name="ISBN" id="ISBN">
-		<label>Title</label><input type="text" name="Title" id="Title">
-		<label>Author</label><input type="text" name="Author" id="Author">
-		<label>Price</label><input type="number" name="Price" id="Price" step="any">
-		<label>Genre</label><input type="text" name="Genre" id="Genre">
-		<label>Description</label><input type="text" name="Description" id="Description">
+		<label>Title</label><input type="text" name="Title" id="title">
+		<label>Author</label><input type="text" name="Author" id="author">
+		<label>Price</label><input type="number" name="Price" id="price" step="any">
+		<label>Genre</label><input type="text" name="Genre" id="genre">
+		<label>Description</label><input type="text" name="Description" id="description">
 
 		<button type="submit" name="submit" value="submit">SUBMIT</button>
 

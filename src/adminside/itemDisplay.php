@@ -10,11 +10,6 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 	<title>Inventory Display</title>
-	<script type="text/javascript">
-		function cmd_edit(argument) {
-			// body...
-		}
-	</script>
 </head>
 <body class="login-form">
 	<div class="login-form">
@@ -38,9 +33,9 @@
     			<?php 
     				$sql = "SELECT * FROM book";
     				$query = mysqli_query($con,$sql);
-    				$num = mysqli_num_rows($query);
+    				$row = mysqli_num_rows($query);
 
-    				for ($i=0; $i < num; $i++) { 
+    				for ($i=0; $i < $row; $i++) { 
     					$result = mysqli_fetch_array($query);
     					$ISBN = $result['ISBN'];
 						$title = $result['title'];

@@ -57,3 +57,7 @@
 23/05/2023
 - 10:00 Backend functionality (410856016 VINCENT)
     - Initiate admin backend functionality using mySQL method
+
+- 18:15 Backend functionality (410856016 VINCENT)
+    - finished implementing the Add and Delete function for the item management
+    - edit function only partially done, need to do some restructuring before continueing
