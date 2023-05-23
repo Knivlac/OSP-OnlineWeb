@@ -8,6 +8,11 @@ HTML
 - login.html
 - adminLogin.html
 - signUp.html
+- adminControl.html
+- itemControl.html
+- itemDisplay.html
+- itemEdit.html
+- userControl.html
 
 CSS
 
