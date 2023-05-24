@@ -55,9 +55,10 @@
     - Database communication sample added
 
 23/05/2023
-- 10:00 Backend functionality (410856016 VINCENT)
-    - Initiate admin backend functionality using mySQL method
+- 10:00 Admin Interface (410856016 VINCENT)
+    - Initiate Admin Backend functionality using MySQL method
+    - Method includes `Add`, `Delete`, `Edit`.
 
-- 18:15 Backend functionality (410856016 VINCENT)
-    - finished implementing the Add and Delete function for the item management
-    - edit function only partially done, need to do some restructuring before continueing
+- 18:15 Admin Interface (410856016 VINCENT)
+    - Finished implementing the `Add` and `Delete` function for the item management
+    - `Edit` function only partially done, need to do some restructuring before continuing 
