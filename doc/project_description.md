@@ -23,9 +23,9 @@ The primary objectives of the project are as follows:
 This website will have seperate set of features and functions for regular users and administrators.
 
 2.1 User Functions 👤:
-- Registration: Users will have the option to register on the website by providing necessary details. This information will be stored securely in the database.
+- Registration: Users will have the option to register on the website by providing necessary information such as name, email, username, and password. These are only used as formality and the information will be stored securely in the database.
 - Login: Registered users can log in to the website using their login info. This will grant them access to additional features such as adding items to the cart and viewing purchase history.
-- Product Browsing: Users will be able to browse through the catalogue of books available on the website. The books will be displayed with the book cover and relevant information such as title, author, price, and so forth.
+- Product Browsing: Users will be able to browse through the catalogue of books available on the website. The book covers will be displayed next to relevant book information such as title, ISBN, author, genre, price, and desctiption/synopsis. There will also be a button that represents an `add to cart` or `purchase` button.
 - Cart Function (Uncertain): Users will have the ability to add products to their cart for purchase. They can add multiple items and manage the quantities before proceeding to the checkout process.
 - Purchase History (Uncertain): Users will have access to their purchase history, which will display details of previous orders and transactions.
 
