@@ -66,4 +66,6 @@
 25/05/2023
 - 16:00 Main Page About Us, FAQ (410856107 Hans Alfredo)
     - Fill in the information for the FAQ and About Us Page
+
+- 15:30 Admin Interface (410856016 VINCENT)
  
