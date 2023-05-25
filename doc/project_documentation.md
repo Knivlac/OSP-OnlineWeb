@@ -68,4 +68,4 @@
     - Fill in the information for the FAQ and About Us Page
 
 - 15:30 Admin Interface (410856016 VINCENT)
- 
+    - Removed some old files for restructuring process
