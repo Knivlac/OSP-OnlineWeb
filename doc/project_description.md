@@ -23,7 +23,7 @@ The primary objectives of the project are as follows:
 This website will have seperate set of features and functions for regular users and administrators.
 
 2.1 User Functions 👤:
-- Registration: Users will have the option to register on the website by providing necessary information such as name, email, username, and password. These are only used as formality and the information will be stored securely in the database.
+- Registration: Users will have the option to register on the website by providing necessary information such as name, email, username, and password. These are only used as formalities and the information will be stored securely in the database.
 - Login: Registered users can log in to the website using their login info. This will grant them access to additional features such as adding items to the cart and viewing purchase history.
 - Product Browsing: Users will be able to browse through the catalogue of books available on the website. The book covers will be displayed next to relevant book information such as title, ISBN, author, genre, price, and desctiption/synopsis. There will also be a button that represents an `add to cart` or `purchase` button.
 - Cart Function (Uncertain): Users will have the ability to add products to their cart for purchase. They can add multiple items and manage the quantities before proceeding to the checkout process.
@@ -52,7 +52,8 @@ The backend component will handle the server-side processing of the website. It 
 
 The database component will store and organize the data required for the website's functionality. It will be implemented using a relational database management system (SQLite or MySQL). The database will consist of several tables, including the following:
 
-- Users Table: This table will store user information such as username, password (stored securely using login hash), and role.
-- Products Table: This table will contain product details, including ISBN, name, title, price, and so forth.
+- Users Table: This table will store user information such as username, password (stored securely using login hash), name, and email address. Only username and password are used for login function, the rest are formalities.
+- Admins Table: This table will store admin information such as admin id and password (stored securely using login hash).
+- Products Table: This table will contain product details, including book cover image file name, title, ISBN, author, genre, price, and desctiption.
 - Cart Table (uncertain): This table will store the user's selected products in the cart.
-- Purchases Table (uncertain): This table will record details about user purchases, including the user ID, product ID, purchase date, and other relevant details.
+- Purchases Table (uncertain): This table will record details about user purchases, including the username, ISBN, purchase time, and other relevant details.
