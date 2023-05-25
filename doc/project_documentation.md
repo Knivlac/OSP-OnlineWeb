@@ -13,7 +13,7 @@
 - 13:00 Graphic (410855448 VILJO)
     - Design "Sprites" for Bookstore Logo and Main Page Background.
 
-- 17:00 Main page(Initiated by ALFREDO, continued by 410855448 VILJO)
+- 17:00 Main page(Initiated by 410856107 ALFREDO, continued by 410855448 VILJO)
     - Implement a rough layout for the main page (main.html).
     - Apply CSS, JavaScript, and include sprites and book cover images.
 
@@ -48,7 +48,7 @@
     - Initiate admin backend interface design
 
 - 19:10 Database(VILJO)
-    - Update: Now data base has 3 tables: book, user, admin. Admin and usser tables are still empty.
+    - Update: Now database has 3 tables: book, user, admin. Admin and usser tables are still empty.
 
 - 19:30 Admin Interface (410856016 VINCENT)
     - Completed CSS for Admin Interface
@@ -72,3 +72,6 @@
 
 - 21:00 Admin Interface (410856016 VINCENT)
     - Finish setting up item management function (Insert, Update, Delete)
+
+- 22:20 Documentation (410855448 VILJO)
+    - Update `README.md` and `project_description.md` in accordance to most recent discussion
