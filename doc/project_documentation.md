@@ -69,3 +69,6 @@
 
 - 15:30 Admin Interface (410856016 VINCENT)
     - Removed some old files for restructuring process
+
+- 21:00 Admin Interface (410856016 VINCENT)
+    - Finish setting up item management function (Insert, Update, Delete)
