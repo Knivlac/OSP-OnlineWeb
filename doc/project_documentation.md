@@ -75,3 +75,7 @@
 
 - 22:20 Documentation (410855448 VILJO)
     - Update `README.md` and `project_description.md` in accordance to latest discussion
+
+25/05/2023
+- 00:10 Data Spreadsheet (410855448 VILJO)
+    - Move contents to Google Sheets and post the link in `/misc`
