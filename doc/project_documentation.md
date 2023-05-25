@@ -74,4 +74,4 @@
     - Finish setting up item management function (Insert, Update, Delete)
 
 - 22:20 Documentation (410855448 VILJO)
-    - Update `README.md` and `project_description.md` in accordance to most recent discussion
+    - Update `README.md` and `project_description.md` in accordance to latest discussion
