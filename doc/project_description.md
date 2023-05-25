@@ -3,22 +3,22 @@
 Document 🗒️: Project Goal, Functions, and Software Architecture
 
 Update 19/05/2023 16:50 - Reducing project scope due to time constraint
+<br> <br>
 
-
-1. Project Goal 🏹:
+# 1. Project Goal 🏹:
 
 The goal of our project is to develop a simple online book shop website that provides users with a convenient platform to browse and purchase products. For this project, the products featured on the website will only be books. The website will have a user-friendly interface with a landing page displaying a catalogue of books. Additionally, the website will incorporate a login system for both users and administrators. 
 
 The primary objectives of the project are as follows:
 - Implement a secure login functionality for users and administrators.
 - Provide users with the ability to browse through the inventory of products.
-- Enable administrators to manage the website, including maintaining web server services, managing product attributes, and adding/removing products.
+- Enable administrators to manage the website, including managing product attributes, adding/removing products, managing user roster, and so forth.
 - Implement a cart function for users, allowing them to add products for purchase, and keeping a record of purchase history. (Uncertain)
 
-Note: This is not a real E-commerce website. No real transactions will be involved.
+***Note: This is not a real E-commerce website. No real transactions will be involved.***
+<br> <br>
 
-
-2. Functionality Scope 🔎:
+# 2. Functionality Scope 🔎:
 
 This website will have seperate set of features and functions for regular users and administrators.
 
@@ -34,9 +34,9 @@ This website will have seperate set of features and functions for regular users 
 - Website Management: Administrators will have the authority to add, update, or remove products from the catalogue.
 - User Management: Administrators will be responsible for managing user accounts, including the ability to view user information and perform necessary actions such as resetting passwords or deactivating accounts.
 - Order Management (Uncertain): Administrators will have access to order information, allowing them to track and manage user purchases.
+<br> <br>
 
-
-3. Software Architecture 🏛️:
+# 3. Software Architecture 🏛️:
 
 The software architecture of the website consists of three main the frontend, the backend, and the database.
 
@@ -50,7 +50,7 @@ The backend component will handle the server-side processing of the website. It 
 
 3.3 Database:
 
-The database component will store and organize the data required for the website's functionality. It will be implemented using a relational database management system SQLite. The database will consist of several tables, including the following:
+The database component will store and organize the data required for the website's functionality. It will be implemented using a relational database management system (SQLite or MySQL). The database will consist of several tables, including the following:
 
 - Users Table: This table will store user information such as username, password (stored securely using login hash), and role.
 - Products Table: This table will contain product details, including ISBN, name, title, price, and so forth.
