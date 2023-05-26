@@ -10,10 +10,11 @@
     />
 	<title>Inventory Management</title>
 	<script>
-    	function cmd_edit(ISBN,title,author,price,genre,description){
+    	function cmd_edit(ISBN,title,author,cover,price,genre,description){
     		document.getElementById('ISBN').value = ISBN;
     		document.getElementById('title').value = title;
     		document.getElementById('author').value = author;
+    		document.getElementById('cover').value = cover;
     		document.getElementById('price').value = price;
     		document.getElementById('genre').value = genre;
     		document.getElementById('description').value = description;
@@ -31,6 +32,7 @@
 		<label>ISBN</label><input type="text" name="ISBN" id="ISBN">
 		<label>Title</label><input type="text" name="title" id="title">
 		<label>Author</label><input type="text" name="author" id="author">
+		<label>Cover</label><input type="file" name="cover" id="cover">
 		<label>Price</label><input type="number" name="price" id="price" step="any">
 		<label>Genre</label><input type="text" name="genre" id="genre">
 		<label>Description</label><input type="text" name="description" id="description">
@@ -47,6 +49,7 @@
 	    			<th>ISBN</th>
 	    			<th>Title</th>
 	    			<th>Author</th>
+	    			<th>Cover</th>
 	    			<th>Price</th>
 	    			<th>Genre</th>
 	    			<th>Description</th>
@@ -55,7 +58,7 @@
     		</thead>
     		<tbody>
     			<?php 
-    				$sql = "SELECT * FROM book";
+    				$sql = "SELECT * FROM booknew";
     				$query = mysqli_query($con,$sql);
     				$row = mysqli_num_rows($query);
 
@@ -64,6 +67,7 @@
     					$ISBN = $result['ISBN'];
 						$title = $result['title'];
 						$author = $result['author'];
+						$cover = $result['cover'];
 						$price = $result['price'];
 						$genre = $result['genre'];
 						$description = $result['description'];
@@ -72,6 +76,7 @@
 					<td><?php echo $ISBN ?></td>
 					<td><?php echo $title ?></td>
 					<td><?php echo $author ?></td>
+					<td><img src="<?php echo $cover ?>" style="width: 100px; height: 100px;"></td>
 					<td><?php echo $price ?></td>
 					<td><?php echo $genre ?></td>
 					<td><?php echo $description ?></td>
@@ -79,7 +84,7 @@
 					<input type="submit" name="cmd" id="cmd_del" value="delete" onclick="cmd_del(<?php echo "'$ISBN'"?>)">
 					</td>
 					<td>
-					<input type="submit" name="cmd" id="cmd_edit" value="edit" onclick="cmd_edit(<?php echo "'$ISBN','$title','$author','$price','$genre','$description'"?>)">
+					<input type="submit" name="cmd" id="cmd_edit" value="edit" onclick="cmd_edit(<?php echo "'$ISBN','$title','$author','$cover','$price','$genre','$description'"?>)">
 					</td>
 				</tr>
     			<?php } ?>

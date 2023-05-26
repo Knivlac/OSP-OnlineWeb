@@ -79,3 +79,6 @@
 25/05/2023
 - 00:10 Data Spreadsheet (410855448 VILJO)
     - Move contents to Google Sheets and post the link in `/misc`
+
+- 10:50 Admin Interface (410856016 VINCENT)
+    - Added function to insert images for book cover
