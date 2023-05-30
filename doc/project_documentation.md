@@ -105,4 +105,4 @@
     - Updated Method for inserting image from file to input image name (There is a bug in the front end javascript that is not transfering the required data for edit with file input type, will attempt to debug in the future)
 
 - 18:20 User Interface (410856016 VINCENT)
-    - Finish Implementation of displaying items on main page
+    - inish Implementation of displaying items on main page
