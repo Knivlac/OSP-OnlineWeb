@@ -82,3 +82,10 @@
 
 - 10:50 Admin Interface (410856016 VINCENT)
     - Added function to insert images for book cover
+
+30/05/2023
+- 14:20 Admin Interface (410855448 VILJO)
+    - Improve its layout and add CSS
+
+- 15:30 Repository (410855448 VILJO)
+    - Files in `src` are rearranged for tidiness. CSS and JS files and `graphic` folder are moved to `design` folder. Pls check.
