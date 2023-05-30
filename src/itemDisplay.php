@@ -91,7 +91,7 @@ error_reporting(E_ALL ^ E_WARNING);
 					<td><?php echo $price ?></td>
 					<td><?php echo $genre ?></td>
 					<td class="display-desc"><?php echo $description ?></td>
-					<td><img src="design/graphic/<?php echo $cover ?>" style="width: 100px; height: 100px;"></td>
+					<td><img src="design/graphic/<?php echo $cover ?>" style="width: 100px; height: 100px;"><label><?php echo $cover ?></label></td>
 					<td>
 					<input type="submit" name="cmd" id="cmd_del" value="delete" onclick="cmd_del(<?php echo "'$ISBN'"?>)">
 					</td>
