@@ -102,7 +102,7 @@ error_reporting(E_ALL ^ E_WARNING);
     			<?php } ?>
     		</tbody>
     	</table>
-    	<a class="adminLogin" href="adminControl.html">Back</a>
+    	<a class="adminLogin" href="adminControl.php">Back</a>
 	</div>
 </body>
 </html>
