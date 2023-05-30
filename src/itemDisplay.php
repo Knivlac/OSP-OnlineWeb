@@ -44,10 +44,10 @@ error_reporting(E_ALL ^ E_WARNING);
 			<label>Author</label><input type="text" name="author" id="author">
 			<label>Price</label><input type="number" name="price" id="price" step="any">
 			<label>Genre</label><input type="text" name="genre" id="genre">
+			<label>Cover</label><input type="text" name="cover" id="cover">
 			<br>
 			<div class="tall-guys">
 				<label>Description</label><textarea type="text" name="description" id="description"></textarea>
-				<label>Cover</label><input type="file" name="cover" id="cover">
 			</div>
 			<input type="submit" id="cmd" name="cmd" value="submit">
 		</form>

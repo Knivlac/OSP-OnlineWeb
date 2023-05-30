@@ -100,3 +100,6 @@
 
 - 17:30 Admin Interface (410856016 VINCENT)
     - Finish development of userControl for admin
+
+- 17:40 Admin Interface (410856016 VINCENT)
+    - Updated Method for inserting image from file to input image name (There is a bug in the front end javascript that is not transfering the required data for edit with file input type, will attempt to debug in the future)
