@@ -8,10 +8,10 @@ HTML & PHP
 - signUp.html
 - login.html
 - adminLogin.html
-- adminControl.html
+- adminControl.html (NOT HERE YET)
 - itemControl.php
 - itemDisplay.php
-- userControl.html
+- userControl.html (NOT HERE YET)
 
 CSS & JS (in `design` folder)
 
@@ -27,4 +27,4 @@ Graphic (in `design/graphic` folder)
 
 Database (in `db` folder)
 
-- bookzone.db
+- bookzone.db (NOT HERE YET)
