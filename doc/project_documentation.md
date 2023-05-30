@@ -93,3 +93,6 @@
 30/05/2023
 - 16:00 Final Progress Report Presentation (410855299 CALVIN)
     - Started work on final progress report powerpoint slides
+
+- 17:00 Admin Interface (410856016 VINCENT)
+    - Removed old admin page design
