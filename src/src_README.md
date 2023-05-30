@@ -13,17 +13,17 @@ HTML & PHP
 - itemDisplay.php
 - userControl.html
 
-CSS & JS
+CSS & JS (in `design` folder)
 
 - style.css
 - admin_the_style.css
 - script.js
 
-Database
+Database (in `db` folder)
 
 - bookzone.db
 
-Graphic (image folder)
+Graphic (in `graphic` folder)
 
 - Book covers
 - Sprites
