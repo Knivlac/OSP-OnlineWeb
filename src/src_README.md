@@ -19,11 +19,11 @@ CSS & JS (in `design` folder)
 - admin_the_style.css
 - script.js
 
-Database (in `db` folder)
-
-- bookzone.db
-
-Graphic (in `graphic` folder)
+Graphic (in `design/graphic` folder)
 
 - Book covers
 - Sprites
+
+Database (in `db` folder)
+
+- bookzone.db
