@@ -89,3 +89,7 @@
 
 - 15:30 Repository (410855448 VILJO)
     - Files in `src` are rearranged for tidiness. CSS and JS files and `graphic` folder are moved to `design` folder. Pls check.
+
+30/05/2023
+- 16:00 Final Progress Report Presentation (410855299 CALVIN)
+    - Started work on final progress report powerpoint slides
