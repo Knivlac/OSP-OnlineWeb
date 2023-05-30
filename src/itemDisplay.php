@@ -32,7 +32,7 @@ error_reporting(E_ALL ^ E_WARNING);
 </head>
 <body>
 	<div class="banner">
-      	<a href="../main.html"><img class="logo" src="../graphic/Sprite-Logo.png"/></a>
+      	<a href="../main.html"><img class="logo" src="design/graphic/Sprite-Logo.png"/></a>
     </div>
 
 	<div class="input-div">
@@ -91,7 +91,7 @@ error_reporting(E_ALL ^ E_WARNING);
 					<td><?php echo $price ?></td>
 					<td><?php echo $genre ?></td>
 					<td class="display-desc"><?php echo $description ?></td>
-					<td><img src="graphic/<?php echo $cover ?>" style="width: 100px; height: 100px;"></td>
+					<td><img src="design/graphic/<?php echo $cover ?>" style="width: 100px; height: 100px;"></td>
 					<td>
 					<input type="submit" name="cmd" id="cmd_del" value="delete" onclick="cmd_del(<?php echo "'$ISBN'"?>)">
 					</td>
