@@ -6,7 +6,7 @@ error_reporting(E_ALL ^ E_WARNING);
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="Stylesheet" href="admin_the_style.css" 
+	<link rel="Stylesheet" href="design/admin_the_style.css" 
 	/>
     <link
         rel="Stylesheet"
