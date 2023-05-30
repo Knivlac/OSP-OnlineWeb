@@ -2,33 +2,28 @@
 
 Source Files Here 👇🤓📁
 
-HTML
+HTML & PHP
 
 - main.html
+- signUp.html
 - login.html
 - adminLogin.html
-- signUp.html
 - adminControl.html
-- itemControl.html
-- itemDisplay.html
-- itemEdit.html
+- itemControl.php
+- itemDisplay.php
 - userControl.html
 
-CSS
+CSS & JS
 
 - style.css
-
-JavaScript
-
+- admin_the_style.css
 - script.js
-
-PHP
 
 Database
 
-- OpenSourceDatabase.db
+- bookzone.db
 
-Graphic = image folder
+Graphic (image folder)
 
 - Book covers
 - Sprites
