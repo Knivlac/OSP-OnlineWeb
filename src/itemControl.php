@@ -21,7 +21,7 @@ if($cmd =="submit"){
 		mysqli_query($con,$sql);	
 	}
 }else if($cmd == "edit"){
-		$sql = "UPDATE booknew SET title='$title', author='$author', cover='$cover', price='$price', genre='$genre', description='$description' WHERE ISBN= '$ISBN'";
+		$sql = "UPDATE booknew SET ISBN= '$ISBN', title='$title', author='$author', cover='$cover', price='$price', genre='$genre', description='$description' WHERE ISBN= '$ISBN'";
 		
 		mysqli_query($con,$sql);
 
