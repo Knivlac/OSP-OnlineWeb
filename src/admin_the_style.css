@@ -1,0 +1,154 @@
+:root {
+  --main: #a0a0a0;
+  --light-main: #dedede;
+  --dark-main: #696969;
+  --translucent-main: #a0a0a0ee;
+  --black: #444;
+  --grey: #666;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --border-hover: 0.1rem solid var(--black);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  transition: all 0.5s linear;
+  transition: width none;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--black);
+}
+
+body {
+  background-image: url(graphic/Sprite-BG-admin.png);
+}
+
+.banner{
+  background: #fff;
+  display: flex;
+  width:100%;
+  height: 110px;
+  justify-content: center;
+}
+
+.logo {
+  top: 0;
+  width: 430px;
+}
+
+.input-div {
+  background: var(--main);
+  width:100%;
+  height: auto;
+  padding: 2rem;
+}
+
+.input-form{
+  position: relative;
+  height: auto;
+}
+
+.input-div h2,
+.input-div label{
+  top: 0;
+  color: white;
+}
+
+.input-form .tall-guys{
+  position: relative;
+  height: auto;
+  display: flex;
+}
+
+.input-div .tall-guys label{
+  margin-top: .8rem;
+}
+
+.input-div input,
+.input-div textarea{
+  margin: .4rem;
+  padding: .4rem;
+}
+
+.input-div #description{
+  height: 5rem;
+  width: 40.75%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.display-list {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  width: 96%;
+  margin-top: 3.6rem;
+  margin-left: 2%;
+  margin-bottom: 3.6rem;
+  padding: 3.6rem;
+  background-color: white;
+  font-size: 16px;
+  border-radius: 3.6rem;
+  border: 10px double black;
+}
+
+table{
+  width: 100%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+tr{
+  border-bottom: 1px solid var(--dark-main);
+}
+
+th{
+  width: 150px;
+}
+
+th,td{
+  border: none;
+  height: auto;
+  padding: .6rem;
+}
+
+.display-desc{
+  width: 400px;
+  text-align: justify;
+}
+
+.display-sakanaction{
+  width: auto;
+  justify-content: center;
+}
+
+tr:hover{
+  background: var(--light-main);
+}
+
+.adminLogin{
+  color: var(--dark-main);
+  text-decoration: underline;
+}
