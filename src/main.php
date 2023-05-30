@@ -1,3 +1,4 @@
+<?php include 'purchaseHistory.php' ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -51,57 +52,42 @@
       <h1 class="heading">Books</h1>
       <div class="books-slider">
         <div class="wrapper">
-          <div class="box">
-            <img src="design/graphic/book-2.jpg" />
-            <div class="content">
-              <h3>Get Over It!</h3>
-              <br />
-              <div class="details">
-                <span>Author: Sally Livingston</span><br />
-                <span>Genre: Self-help</span><br />
-                <span>ISBN: 9781640857827</span><br />
-                <span>Price: 449NTD</span><br /><br /><br />
-                <p>
-                  Are you tired of trying but failing to move past experiences
-                  and relationships that have caused hurt or confusion? Are you
-                  caught in a cycle of repeating old behaviors that don't work?
-                  Are you frustrated and ready for something to give? "Get over
-                  it!" is often perceived as a derogatory way to express
-                  frustration or exhaustion. However, this book flips the phrase
-                  on its head and offers a positive and encouraging message,
-                  making these the nicest mean words you'll ever hear or say.
-                  Author Sally Livingston uses her psychotherapy and ministry
-                  leadership experience to show how it is actually possible to
-                  interrupt the Stuck Cycle and work the steps to make
-                  substantial change. When you follow this process you will
-                  encounter freedom on the other side of your it.
-                </p>
-              </div>
-              <a href="#" class="btn">Purchase</a>
-            </div>
-          </div>
-          <br /><br /><br />
+          <?php 
+            $sql = "SELECT * FROM booknew";
+            $query = mysqli_query($con,$sql);
+            $row = mysqli_num_rows($query);
 
+            for ($i=0; $i < $row; $i++) { 
+            $result = mysqli_fetch_array($query);
+            $ISBN = $result['ISBN'];
+            $title = $result['title'];
+            $author = $result['author'];
+            $price = $result['price'];
+            $genre = $result['genre'];
+            $description = $result['description'];
+            $cover = $result['cover'];
+        ?>
           <div class="box">
-            <img src="design/graphic/book-1.jpg" />
+            <img src="design/graphic/<?php echo $cover ?>" />
             <div class="content">
-              <h3>Insert Title</h3>
+              <h3><?php echo $title ?></h3>
               <br />
               <div class="details">
-                <span>Author: Insert Author</span><br />
-                <span>Genre: Insert Genre</span><br />
-                <span>ISBN: Insert ISBN</span><br />
-                <span>Price: Insert PriceNTD</span><br /><br /><br />
-                <p>Insert Description</p>
+                <span>Author: <?php echo $author ?></span><br />
+                <span>Genre: <?php echo $genre ?></span><br />
+                <span>ISBN: <?php echo $ISBN ?></span><br />
+                <span>Price: <?php echo $price ?> NTD</span><br /><br /><br />
+                <p><?php echo $description ?></p>
               </div>
               <a href="#" class="btn">Purchase</a>
             </div>
           </div>
           <br /><br /><br />
+        <?php } ?>
         </div>
       </div>
     </section>
-    
+
     <!--about us section-->
     <section class="aboutus" id="About Us">
       <br />
