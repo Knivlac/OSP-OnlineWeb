@@ -96,3 +96,7 @@
 
 - 17:00 Admin Interface (410856016 VINCENT)
     - Removed old admin page design
+    - Applied new CSS for admin page made by (410855448 VILJO) for userControl
+
+- 17:30 Admin Interface (410856016 VINCENT)
+    - Finish development of userControl for admin
