@@ -23,7 +23,7 @@
       </script>
 	<title>Admin Background Control</title>
 </head>
-<body class="login-form" style="background: url("design/graphic/Sprite-BG-Admin");">
+<body class="login-form" style="background-image: url("design/graphic/Sprite-BG-Admin");">
 <div class="login-form">
     <div>
       	<a href="main.html"><img class="logo" src="design/graphic/Sprite-Logo.png"/></a>
