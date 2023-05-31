@@ -18,7 +18,7 @@ if($cmd =="submit"){
 	}else{
 		$sql = "INSERT INTO booknew(ISBN,title,author,cover,price,genre,description) VALUES('$ISBN','$title','$author','$cover','$price','$genre','$description')";
 
-		mysqli_query($con,$sql);	
+		mysqli_query($con,$sql);
 	}
 }else if($cmd == "edit"){
 		$sql = "UPDATE booknew SET ISBN= '$ISBN', title='$title', author='$author', cover='$cover', price='$price', genre='$genre', description='$description' WHERE ISBN= '$ISBN'";
