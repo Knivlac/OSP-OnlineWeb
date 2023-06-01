@@ -134,4 +134,5 @@ Then we make a for loop that will repeat displaying data for every row of data i
 
 The same is applied On main.php to display item data to the user on the frontpage.
 
-HOW LOGIN & SIGNUP WORKS
+# HOW LOGIN & SIGNUP WORKS
+
