@@ -1,4 +1,5 @@
 <!-- <?php include 'purchaseHistory.php'?> -->
+<?php error_reporting(E_ALL ^ E_WARNING); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
