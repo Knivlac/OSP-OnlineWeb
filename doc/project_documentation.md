@@ -121,3 +121,6 @@
     
 - 22:00 User Logout (410855448 VILJO)
     - Add logout function for users.
+
+- 23:30 Final Progress Report Presentation (410855299 CALVIN)
+    - Completed and Submitted 
