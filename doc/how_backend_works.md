@@ -176,6 +176,84 @@ When both the `username` and `password` matches, it will assign the `username` a
 In the case of no matches in the database, it will just set a `$_GET` value which shows the corresponding error
 
 	header("Location: login.php?error=Incorect  name or password");
-	
 #
 # HOW SIGN IN WORKS
+With the first few steps being the same as `log in function`, we will skip through how it assigns users input into a variable 
+and checks if the user's input is empty. With the key difference of what input we took, which includes:
+
+1. First Name
+2. Last Name
+3. Email
+4. Username
+5. Password
+6. Re-entering Password (which gives an error if it's not the same as the password)
+
+Feel free to skip this section of the code.
+
+
+		$firstName = $_POST['firstName'];
+		  $lastName = $_POST['lastName'];
+		  $email = $_POST['email'];
+		  $userName = $_POST['userName'];
+		  $userPassword = $_POST['userPassword'];
+		  $userPasswordRE = $_POST['userPasswordRE'];
+
+		  if (empty($firstName)) {
+		    header("location: signUp.php?error=First Name is required");
+		    exit();
+		  } 
+
+		  if (empty($lastName)) {
+		    header("location: signUp.php?error=Last Name is required");
+		    exit();
+		  } 
+
+		  if (empty($email)) {
+		    header("location: signUp.php?error=Email is required");
+		    exit();
+		  } 
+
+		  if (empty($userName)) {
+		    header("location: signUp.php?error=User Name is required");
+		    exit();
+		  } 
+
+		  if (empty($userPassword)) {
+		    header("location: signUp.php?error=Password is required");
+		    exit();
+		  } 
+
+		  if (empty($userPasswordRE)) {
+		    header("location: signUp.php?error=Please re-enter your password");
+		    exit();
+		  } else if($userPassword != $userPasswordRE){
+		    header("location: signUp.php?error=Password does not match");
+		    exit();
+		    }
+		    
+Secondly, the function will then take the username that is inputted into the sign up form and query the database for any matches.
+		    
+		$sql = "SELECT * FROM user_info WHERE userName='$userName' ";
+				$result = mysqli_query($conn, $sql);
+
+If there is any matches, it will then return an error of `username is taken`
+
+		if (mysqli_num_rows($result) > 0) {
+			header("Location: signup.php?error=The username is taken");
+	        exit();
+		}
+		
+If there isn't any matches for the username in the database, it will then create another query to insert the information given by the user into the database
+Then let the user know their account has been created successfully.
+		
+		else {
+		   $sql2 = "INSERT INTO user_info(firstName, lastName, email, userName, userPassword)
+		    VALUES('$firstName', '$lastName', '$email', '$userName', '$userPassword')";
+		   $result2 = mysqli_query($conn, $sql2);
+		   if ($result2) {
+			 header("Location: signup.php?success=Your account has been created successfully");
+			 exit();
+		   }else {
+	           	header("Location: signup.php?error=unknown error occurred");
+		        exit();
+#
