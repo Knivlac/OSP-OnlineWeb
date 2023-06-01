@@ -108,5 +108,14 @@
     - Finish Implementation of displaying items on main page
 
 01/06/2023
+- 14:15 Login & Sign Up (410856057 TAN SHAN YU)
+    - Logging in and Sign up function completed
+
+-15:00 Repository (410856057 TAN SHAN YU)
+    -Added SQL files into `Database Exports` Folder 
+    
 - 17:00 Admin Interface (410856016 VINCENT)
     - Finish Updating userControl.php in collerates with the now functioning signUp function
+
+-18:00 Admin Interface (410856057 TAN SHAN YU)
+    - Admin Log in function added
