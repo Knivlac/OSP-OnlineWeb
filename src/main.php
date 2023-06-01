@@ -1,4 +1,4 @@
-<!-- <?php include 'purchaseHistory.php' ?> -->
+<?php include 'DbConn.php' ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,7 +31,6 @@
         </form>
 
         <div class="login">
-          <!--shows username if logged in, otherwise link to log in page-->
           <a href="login.php">Log in</a>
           <div id="login-btn" class="fas fa-user"></div>
         </div>
