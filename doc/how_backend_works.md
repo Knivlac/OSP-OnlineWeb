@@ -176,3 +176,6 @@ When both the `username` and `password` matches, it will assign the `username` a
 In the case of no matches in the database, it will just set a `$_GET` value which shows the corresponding error
 
 	header("Location: login.php?error=Incorect  name or password");
+	
+#
+# HOW SIGN IN WORKS
