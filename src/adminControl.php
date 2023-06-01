@@ -21,7 +21,7 @@ session_start();
         }
 
         function logOutPage() {
-        	window.open("adminLogin.php");
+        	window.open("adminLogin.html");
         }
       </script>
 	<title>Admin Background Control</title>
@@ -29,7 +29,7 @@ session_start();
 <body class="login-form" style="background-image: url(design/graphic/Sprite-BG-Admin.png);">
 <div class="login-form">
     <div>
-      	<a href="main.html"><img class="logo" src="design/graphic/Sprite-Logo.png"/></a>
+      	<a href="main.php"><img class="logo" src="design/graphic/Sprite-Logo.png"/></a>
     </div>
     <h2>Admin Control</h2>
     	<button onclick="itemPage()" style="margin-top: 10px;">Inventory Management</button>

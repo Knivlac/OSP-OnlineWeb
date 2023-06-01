@@ -106,3 +106,7 @@
 
 - 18:20 User Interface (410856016 VINCENT)
     - Finish Implementation of displaying items on main page
+
+01/06/2023
+- 17:00 Admin Interface (410856016 VINCENT)
+    - Finish Updating userControl.php in collerates with the now functioning signUp function

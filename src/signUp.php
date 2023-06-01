@@ -52,6 +52,7 @@
         </div>
 
         <button type="submit">SIGN UP</button>
+        <a class="adminLogin" href="main.php">Back</a>
       </form>
     </body>
   </html>
