@@ -1,5 +1,5 @@
 <?php
-include "userInfoDbConn.php";
+include "DbConn.php";
 
 if (isset($_POST['firstName']) && isset($_POST['lastName'])
     && isset($_POST['email']) && isset($_POST['userName']) 

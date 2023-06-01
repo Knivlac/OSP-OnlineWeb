@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "userInfoDbConn.php"; 
+include "DbConn.php"; 
 
 if (isset($_POST['userName']) && isset($_POST['userPassword']) && isset($_POST['loginSubmit'])) {
 
