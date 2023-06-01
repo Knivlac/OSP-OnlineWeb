@@ -16,9 +16,6 @@ if (isset($_POST['userName']) && isset($_POST['userPassword']) && isset($_POST['
         header("Location: login.php?error=Password is required");
 	    exit();
 	}else{
-		// hashing the userPassword
-      
-
         
 		$sql = "SELECT userName, userPassword 
 		FROM user_info 

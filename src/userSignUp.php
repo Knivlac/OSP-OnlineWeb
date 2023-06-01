@@ -5,7 +5,7 @@ if (isset($_POST['firstName']) && isset($_POST['lastName'])
     && isset($_POST['email']) && isset($_POST['userName']) 
     && isset($_POST['userPassword'])
     && isset($_POST['userPasswordRE'])) {
-  // collect value of input field
+
   $firstName = $_POST['firstName'];
   $lastName = $_POST['lastName'];
   $email = $_POST['email'];
