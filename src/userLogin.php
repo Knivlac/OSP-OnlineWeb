@@ -1,10 +1,7 @@
 <?php
-session_start();
 include "DbConn.php"; 
 
 if (isset($_POST['userName']) && isset($_POST['userPassword']) && isset($_POST['loginSubmit'])) {
-
-
 
 	$userName = $_POST['userName'];
 	$pass = $_POST['userPassword'];
@@ -28,8 +25,10 @@ if (isset($_POST['userName']) && isset($_POST['userPassword']) && isset($_POST['
 		if ( $count == 1) {
 			$row = mysqli_fetch_assoc($result);
             if ($row['userName'] === $userName && $row['userPassword'] === $pass) {
-            	$_SESSION['userName'] = $row['userName'];
+            	session_start();
+				$_SESSION['userName'] = $row['userName'];
             	$_SESSION['id'] = $row['id']; 
+				$_SESSION['sess'] = "SESS";
             	header("Location: main.php");
 		        exit();
             }else{

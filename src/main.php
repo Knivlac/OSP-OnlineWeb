@@ -1,4 +1,4 @@
-<?php include 'DbConn.php' ?>
+<!-- <?php include 'purchaseHistory.php'?> -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,7 +31,24 @@
         </form>
 
         <div class="login">
-          <a href="login.php">Log in</a>
+          <a href="
+            <?php 
+              session_start();
+              if ($_SESSION['sess'] != "SESS"){
+                echo "userLogin.php";
+              } else {
+                echo "userLogout.php";
+              }
+            ?>
+          ">
+            <?php 
+              if ($_SESSION['sess'] != "SESS"){
+                echo "Login";
+              } else {
+                echo "Logout";
+              }
+            ?>
+          </a>
           <div id="login-btn" class="fas fa-user"></div>
         </div>
       </div>
@@ -65,7 +82,7 @@
             $genre = $result['genre'];
             $description = $result['description'];
             $cover = $result['cover'];
-        ?>
+          ?>
           <div class="box">
             <img src="design/graphic/<?php echo $cover ?>" />
             <div class="content">
