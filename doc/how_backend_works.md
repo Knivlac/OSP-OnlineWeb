@@ -134,5 +134,45 @@ Then we make a for loop that will repeat displaying data for every row of data i
 
 The same is applied On main.php to display item data to the user on the frontpage.
 
-# HOW LOGIN & SIGNUP WORKS
+# HOW LOG IN WORKS
+First, we get the user input of their `username` and `password` with a post method html form and send it to [userLogin.php](../src/userLogin.php) and declare the value of input into a variable:
+	
+		$userName = $_POST['userName'];
+		$pass = $_POST['userPassword'];
 
+Secondly, we check if the value is empty or not, if it's empty, the user will be shown an error
+
+		if (empty($userName)) {
+		header("Location: login.php?error=User Name is required");
+		    exit();
+		}else if(empty($pass)){
+		header("Location: login.php?error=Password is required");
+		    exit();
+	
+Otherwise, the `username` and `password` will be query if it matches the database 
+
+		$sql = "SELECT userName, userPassword 
+		FROM user_info 
+		WHERE userName='".$userName."' AND userPassword='".$pass."'";
+
+In the case of it matching the database, it will save its result into the $result variable, 
+then count if theres 1 or 0 matching row and save it into the $count variable,
+		
+		$result = mysqli_query($conn, $sql);
+
+		$count = mysqli_num_rows($result);
+		
+If there is one row that matches, it will fetch the result into the `if` statement and compare again because this is another function.
+When both the `username` and `password` matches, it will assign the `username` and `password` into the current session
+		
+		if ( $count == 1) {
+			$row = mysqli_fetch_assoc($result);
+		    if ($row['userName'] === $userName && $row['userPassword'] === $pass) {
+			$_SESSION['userName'] = $row['userName'];
+			$_SESSION['id'] = $row['id']; 
+			header("Location: main.php");
+				exit();
+				
+In the case of no matches in the database, it will just set a `$_GET` value which shows the corresponding error
+
+	header("Location: login.php?error=Incorect  name or password");
