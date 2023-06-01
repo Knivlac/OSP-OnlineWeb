@@ -42,12 +42,12 @@
         <button name="signup" onclick="signUpPage()">SIGN UP</button>
 
         <div>
-          <a href="main.html"
+          <a href="main.php"
             ><img class="logo" src="design/graphic/Sprite-Logo.png"
           /></a>
         </div>
 
-        <a class="adminLogin" href="adminLogin.html">Admin Login</a>
+        <a class="adminLogin" href="adminLogin.php">Admin Login</a>
       </form>
     </body>
   </html>

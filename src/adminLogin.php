@@ -29,7 +29,7 @@
      	<?php } ?>
 
         <div>
-          <a href="main.html"
+          <a href="main.php"
             ><img class="logo" src="design/graphic/Sprite-Logo.png"
           /></a>
         </div>

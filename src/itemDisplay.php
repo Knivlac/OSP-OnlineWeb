@@ -32,7 +32,7 @@ error_reporting(E_ALL ^ E_WARNING);
 </head>
 <body>
 	<div class="banner">
-      	<a href="../main.html"><img class="logo" src="design/graphic/Sprite-Logo.png"/></a>
+      	<a href="../main.php"><img class="logo" src="design/graphic/Sprite-Logo.png"/></a>
     </div>
 
 	<div class="input-div">

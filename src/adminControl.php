@@ -21,7 +21,7 @@ session_start();
         }
 
         function logOutPage() {
-        	window.open("adminLogin.html");
+        	window.open("adminLogin.php");
         }
       </script>
 	<title>Admin Background Control</title>
