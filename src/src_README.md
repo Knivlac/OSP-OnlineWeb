@@ -4,14 +4,16 @@ Source Files Here 👇🤓📁
 
 HTML & PHP
 
-- main.html
-- signUp.html
-- login.html
-- adminLogin.html
-- adminControl.html (NOT HERE YET)
+- main.php
+- signUp.php
+- userLogin.php
+- userLogout.php
+- adminLogin.php
+- adminLogout.php
+- adminControl.php
 - itemControl.php
 - itemDisplay.php
-- userControl.html (NOT HERE YET)
+- userControl.php
 
 CSS & JS (in `design` folder)
 
