@@ -1,4 +1,7 @@
 <?php
+
+// STILL TESTING
+
 error_reporting(E_ALL ^ E_WARNING); 
 
 $con = mysqli_connect("localhost","root","","bookzone");
@@ -13,7 +16,7 @@ $description = $_GET['description'];
 $cmd = $_GET['cmd'];
 
 if($cmd =="submit"){
-		$sql = "INSERT INTO booknew(ISBN,title,author,cover,price,genre,description) VALUES('$ISBN','$title','$author','$cover','$price','$genre','$description')";
+		$sql = "INSERT INTO purchasehistory(ISBN,title,author,cover,price,genre,description) VALUES('$ISBN','$title','$author','$cover','$price','$genre','$description')";
 
 		mysqli_query($con,$sql);
 }
