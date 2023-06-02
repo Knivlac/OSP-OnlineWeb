@@ -134,6 +134,7 @@ Then we make a for loop that will repeat displaying data for every row of data i
 
 The same is applied On main.php to display item data to the user on the frontpage.
 
+
 # HOW LOG IN WORKS
 First, we get the user input of their `username` and `password` with a post method html form and send it to [userLogin.php](../src/userLogin.php) and declare the value of input into a variable:
 	
@@ -176,7 +177,8 @@ When both the `username` and `password` matches, it will assign the `username` a
 In the case of no matches in the database, it will just set a `$_GET` value which shows the corresponding error
 
 	header("Location: login.php?error=Incorect  name or password");
-#
+
+
 # HOW SIGN IN WORKS
 With the first few steps being the same as `log in function`, we will skip through how it assigns users input into a variable 
 and checks if the user's input is empty. With the key difference of what input we took, which includes:
