@@ -1,6 +1,6 @@
-HOW ITEM AND USER MANAGEMENT WORKS : 
+# HOW ADMIN'S ITEM AND USER MANAGEMENT WORK: 
 
-so basically the admin can use the interface provided to do communication and manipulation of the tables in the database, we have created a form that reads and transmit data through php and the php sends and SQL commands which will adapt to whatever the admin wanna inputs. The data transmitted are labeled with ID and php Catches them with GET Function which allows the variables to be stored and the SQL commands can be updated with the stored data in the variables.
+So basically the admin can use the interface provided to do communication and manipulation of the tables in the database, we have created a form that reads and transmit data through php and the php sends and SQL commands which will adapt to whatever the admin wanna inputs. The data transmitted are labeled with ID and php Catches them with GET Function which allows the variables to be stored and the SQL commands can be updated with the stored data in the variables.
 
 For Example from itemDisplay.php : 
 
@@ -256,4 +256,58 @@ Then let the user know their account has been created successfully.
 		   }else {
 	           	header("Location: signup.php?error=unknown error occurred");
 		        exit();
-#
+
+# HOW MAIN WORKS:
+
+1. Session
+Main relies on the session from login feature to unlock some exclusive functions. If login session is not inititated, the user will be given a link to the login page, otherwise a link to logout from the account and end the session and then go back to main page with the login session unset. 
+
+- Link to login/logout depending on session from login.
+
+	
+		<a href="
+	            <?php 
+	              session_start();
+	              if ($_SESSION['sess'] != "SESS"){
+	                echo "userLogin.php";
+	              } else {
+	                echo "userLogout.php";
+	              }
+	            ?>
+	          ">
+	            <?php 
+         	     if ($_SESSION['sess'] != "SESS"){
+  	      	        echo "Login";
+        	      } else {
+        	        echo "Logout";
+        	      }
+        	    ?>
+          	</a>
+	  
+- `userLogout.php`
+	
+	
+		<?php
+		session_start();
+		unset($_SESSION['sess']);
+		unset($_SESSION['userName']);
+		unset($_SESSION['id']);
+		header('Location: main.php');
+		?>
+
+2. Item Display
+Similar to item display in admin's side, the php will use a loop to take the variables of all the available records in the book table. Then, the variables will be displayed in an orderly fashion. 
+
+		<div class="content">
+	        	<h3><?php echo $title ?></h3>
+	        	<br />
+	        	<div class="details">
+	        		<span>Author: <?php echo $author ?></span><br />
+	        		<span>Genre: <?php echo $genre ?></span><br />
+	        		<span>ISBN: <?php echo $ISBN ?></span><br />
+       	        		<span>Price: <?php echo $price ?> NTD</span><br /><br /><br />
+       	        		<p><?php echo $description ?></p>
+			</div>
+			<a href="#" class="btn">Purchase</a>
+		</div>
+
