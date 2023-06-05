@@ -124,3 +124,9 @@
 
 - 23:30 Final Progress Report Presentation (410855299 CALVIN)
     - Completed and Submitted 
+
+05/06/2023
+
+- 19:40 User Interface (410856016 VINCENT)
+    - Implemented basic search function
+    - Need to fix the CSS

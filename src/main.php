@@ -1,4 +1,4 @@
-<!-- <?php include 'purchaseHistory.php'?> -->
+<?php include 'searchResult.php'?>
 <?php error_reporting(E_ALL ^ E_WARNING); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,14 +21,15 @@
           <img src="design/graphic/Sprite-Logo.png" />
         </div>
 
-        <form action="" class="search-form">
+        <form method="GET" class="search-form" autocomplete="off">
           <input
             type="search"
-            name=""
+            name="title"
             placeholder="Search for..."
-            id="search-box"
+            class="search-box"
+            id="title"
           />
-          <label for="search-box" class="fas fa-search"></label>
+          <button type="submit" class="fas fa-search"></button>
         </form>
 
         <div class="login">
