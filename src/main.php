@@ -1,5 +1,6 @@
-<?php include 'searchResult.php'?>
-<?php error_reporting(E_ALL ^ E_WARNING); ?>
+<?php error_reporting(E_ALL ^ E_WARNING); 
+$con = mysqli_connect("localhost","root","","bookzone");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,7 +22,7 @@
           <img src="design/graphic/Sprite-Logo.png" />
         </div>
 
-        <form method="GET" class="search-form" autocomplete="off">
+        <form method="GET" action="searchResult.php?title" class="search-form" autocomplete="off">
           <input
             type="search"
             name="title"

@@ -27,6 +27,7 @@ $title = $_GET['title'];
           <img src="design/graphic/Sprite-Logo.png" />
         </div>
         <h2>Showing Search Result</h2>
+        <a href="main.php">Back</a>
       </div>
     </header>
 

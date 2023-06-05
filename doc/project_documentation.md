@@ -128,5 +128,4 @@
 05/06/2023
 
 - 19:40 User Interface (410856016 VINCENT)
-    - Implemented basic search function
-    - Need to fix the CSS
+    - Finish Implementing Search Function
