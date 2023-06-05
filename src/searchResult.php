@@ -37,7 +37,7 @@ $title = $_GET['title'];
       <div class="books-slider">
         <div class="wrapper">
           <?php 
-            $sql = "SELECT * FROM booknew WHERE title='$title'";
+            $sql = "SELECT * FROM booknew WHERE title LIKE '%$title%'";
             $query = mysqli_query($con,$sql);
             $row = mysqli_num_rows($query);
 
