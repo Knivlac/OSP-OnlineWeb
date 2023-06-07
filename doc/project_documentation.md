@@ -129,3 +129,8 @@
 
 - 19:40 User Interface (410856016 VINCENT)
     - Finish Implementing Search Function
+
+07/06/2023
+
+- 20:00 Database (410856016 VINCENT)
+    - Updated The Default SQL
