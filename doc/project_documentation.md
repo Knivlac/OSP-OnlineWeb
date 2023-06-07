@@ -134,3 +134,5 @@
 
 - 20:00 Database (410856016 VINCENT)
     - Updated The Default SQL
+- 22:00 Manuals (410855448 VILJO)
+    - Finish checking and correcting manuals.
